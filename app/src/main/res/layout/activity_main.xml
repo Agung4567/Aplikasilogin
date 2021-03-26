@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5B99"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="202dp"
+        android:layout_height="200dp"
+        android:translationX="100dp"
+        android:translationY="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/Facebook"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Email or phone"
+        android:translationY="180dp"
+        android:translationX="30dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="200dp"
+        android:translationX="30dp"
+        android:background="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Password"
+        android:translationY="260dp"
+        android:translationX="30dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:translationY="280dp"
+        android:translationX="30dp"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="170dp"
+        android:backgroundTint="#173CAE"
+        android:layout_height="wrap_content"
+        android:hint="Log in"
+        android:textColorHint="@color/white"
+        android:translationX="30dp"
+        android:translationY="350dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Sign up for facebook"
+        android:translationY="450dp"
+        android:translationX="30dp"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>
